@@ -1,0 +1,24 @@
+<%- errorMessagesFor(task) %>
+<div class="control-group">
+   <%- form.label("description", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("description") %>
+   </div>
+</div>
+<div class="control-group">
+   <%- form.label("due", false, {class: "control-label"}) %>
+   <div class="controls">
+       <%- form.input("due") %>
+   </div>
+</div>
+<div class="control-group">
+
+   <%- form.label("done", false, {class: "control-label"}) %>
+
+   <div class="controls">
+
+       <%- form.checkbox("done") %>
+
+   </div>
+
+</div>
